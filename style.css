@@ -1,0 +1,258 @@
+/*base-layer*/
+
+/*box-sizing*/
+* {
+	box-sizing: border-box;
+}
+
+/*body css*/
+body {
+	font-family: Verdana, sans-serif;
+}
+
+/*css for section 1 - classical*/
+.section-1 {
+	background-color: #d3d3d3;
+}
+
+/*css for section 1 - rock*/
+.section-2 {
+	background-color: #d3d3d3;
+}
+
+/*css for section 1 - blues*/
+.section-3 {
+	background-color: #d3d3d3;
+}
+
+/*header of the section*/
+.header-2 {
+	text-align: right;
+	border: 2px solid black;
+	width: 45%;
+	float: right;
+	clear: both;
+	
+}
+
+/*information about the topic*/
+.text {
+	white-space: pre-wrap;
+	padding-top: 5px;
+	margin-top: 50px;
+
+}
+
+/*the main topic*/
+#main-header {
+	position: relative;
+	text-align: center;
+	font-size: 2vw;
+}
+
+
+
+/*extra information linked to a different page*/
+#more-info {
+	position: relative;
+	margin-top: 200px;
+	text-align: center;
+	font-size: 2vw;
+	clear: both;
+
+	
+}
+
+/*list of music-genre*/
+.music-genre {
+	list-style: none;
+}
+
+/********* Desktop View ********/
+@media (min-width: 992px) {
+	
+	/*css for section 1 - classical*/
+	.section-1 {
+	position: relative;
+	float: left;
+	width: 30%;
+	border: 2px solid green;
+  	padding: 2px; 
+  	margin: 5px;
+	}
+
+	/*css for section 1 - rock*/
+	.section-2 {
+	position: relative;
+	float: left;
+	width: 30%;
+	border: 2px solid green;
+  	padding: 2px; 
+  	margin: 5px;
+	}
+
+	/*css for section 1 - blues*/
+	.section-3 {
+	position: relative;
+	float: left;
+	width: 30%;
+	border: 2px solid green;
+  	padding: 2px; 
+  	margin: 5px;
+	}
+
+	/*classical section header*/
+	.classical {
+		background-color: #FFFF99;
+	}
+
+	/*rock section header*/
+	.rock {
+		background-color: #b19cd9;
+		width: 34%;
+	}
+
+	/*blues section header*/
+	.blues {
+		background-color:  #add8e6;
+		width: 35%;
+	}
+
+	/*extra information linked to a different page*/
+	#more-info {
+		font-size:1.5vw;
+	}
+
+
+	
+	
+}
+
+/********* Tablet View ********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	/*css for section 1 - classical*/
+	.section-1 {
+	position: relative;
+	float: left;
+	width: 45%;
+	border: 2px solid green;
+  	padding: 2px;
+  	margin: 10px; 
+    clear: left;
+	}
+
+	/*css for section 1 - rock*/
+	.section-2 {
+	position: relative;
+	float: left;
+	width: 45%;
+	border: 2px solid green;
+  	padding: 2px; 
+	}
+
+	/*css for section 1 - blues*/
+	.section-3 {
+	float: left;
+	width: 100%;
+	border: 2px solid green;
+  	padding: 5px; 
+  	margin-top: 10px;
+    
+	}
+
+	/*information about the topic*/
+	.text {
+		font-size: 2vw;
+	}
+
+	/*classical section header*/
+	.classical {
+		background-color: #FFFF99;
+		
+	}
+
+	/*rock section header*/
+	.rock {
+		background-color: #b19cd9;
+		width: 34%;
+	}
+
+	/*blues section header*/
+	.blues {
+		background-color:  #add8e6;
+		width: 35%;
+	}
+
+	/*extra information linked to a different page*/
+	#more-info {
+		font-size:1.5vw;
+	}
+	 
+}
+
+
+/********* Mobile View ********/
+@media (max-width: 767px) {
+
+	/*css for section 1 - classical*/
+	.section-1 {
+		position: relative;
+		float: left;
+		width: 100%;
+		border: 2px solid green;
+	  	padding: 2px; 
+	  	margin: 5px;
+	    
+	}
+
+	/*css for section 1 - rock*/
+	.section-2 {
+		position: relative;
+		float: left;
+		width: 100%;
+		border: 2px solid green;
+	  	padding: 2px; 
+	  	margin: 5px;
+	    
+	}
+
+	/*css for section 1 - blues*/
+	.section-3 {
+		position: relative;
+		float: left;
+		width: 100%;
+		border: 2px solid green;
+	  	padding: 2px; 
+	  	margin: 5px;
+	    
+	}
+
+	/*information about the topic*/
+	.text {
+		font-size: 3vw;
+	}
+
+	/*classical section header*/
+	.classical {
+		background-color: #FFFF99;
+	}
+
+	/*rock section header*/
+	.rock {
+		background-color: #b19cd9;
+		width: 34%;
+	}
+
+	/*blues section header*/
+	.blues {
+		background-color:  #add8e6;
+		width: 35%;
+	}	
+
+	/*extra information linked to a different page*/
+	#more-info {
+		font-size: 2vw;
+	}
+
+}
